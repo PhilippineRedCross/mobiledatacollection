@@ -67,3 +67,26 @@ body{
 .container-motto {
   background-color: black;
 }
+
+
+/*.socialBar {
+  margin: 4px 0 10px 0;
+}*/
+.socialBar div {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.socialBar div:hover {
+  background-color: #e8e8e8;
+}
+.socialBar .email {
+  background: url("../img/contact.png") 0 0;
+}
+.socialBar .twitter {
+  background: url("../img/contact.png") -96px 0;
+}
+.socialBar .skype {
+  background: url("../img/contact.png") -144px 0;
+}
